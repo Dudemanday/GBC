@@ -18,5 +18,8 @@
     <ClCompile Include="GAME1001_Exercise03_Wootton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GAME1007_Lab2_WoottonNicholas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

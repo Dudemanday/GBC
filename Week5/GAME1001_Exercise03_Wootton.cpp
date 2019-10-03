@@ -5,7 +5,7 @@ Date Created:
 Date Last Edited:
 Whats is this?
 
-*/
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -39,17 +39,18 @@ int main()
 
 		//checks input then outputs ticket price based on input
 		if (selection == adultInput) {
-			cout << "Price: $" << ticketPrice << setprecision(2) << endl;
+			cout << "Price: $" << ticketPrice << endl;
 		}
 		else if (selection == childInput) {
-			cout << "Price: $" << ticketPrice * childPrice << setprecision(2) << endl;
+			cout << "Price: $" << ticketPrice * childPrice << endl;
 		}
 		else if (selection == seniorInput) {
-			cout << "Price: $" << ticketPrice * seniorPrice << setprecision(2) << endl;
+			cout << "Price: $" << ticketPrice * seniorPrice << endl;
 		}
 		else if (selection != 4) {
-			cout << "Invalid Input.";
+			cout << "Invalid Input.\n";
 		}
 	}
 	system("pause");
 }
+*/
